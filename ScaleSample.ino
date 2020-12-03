@@ -24,8 +24,8 @@ void setup() {
   katsayi = EEPROM_readDouble(0);
   zeroVal = EEPROM_readDouble(10);
 }
-int test;
-//Git testleri için yazıldı
+
+//Git testleri için yazıldı tekrar
 void loop() {  
   lcd.setCursor(0,0);
   //lcd.print(hx711.read()/100);
